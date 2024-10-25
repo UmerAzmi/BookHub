@@ -248,7 +248,7 @@ if user_name:
    def similar_books(book_name:str):
     # The book name entered is converted into lower case and removing the additional characters and additional space using regular expressions
     book_name= re.sub('[^a-zA-Z0-9]',' ',book_name.lower())
-    book_name=re.sub('\s+'," ",book_name)
+    book_name=re.sub(r'\s+'," ",book_name)
     # Transforming the book name into TFIDF Vectorizer
     book_vector=vectorizer.transform([book_name])
     # Computing the similarities between the book name query vector and the tfid matrix
