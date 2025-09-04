@@ -11,7 +11,7 @@ It helps readers discover new books using:
 ---
 
 ## 🌐 Live Website  
-bookhu3.streamlit.app
+https://bookhu3.streamlit.app
 
 ---
 
