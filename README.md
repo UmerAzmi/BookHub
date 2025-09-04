@@ -1,6 +1,6 @@
-# BookHub – Interactive Book Recommender  
+# BookHub 
 
-BookHub is an interactive book recommender system built with **Streamlit**.  
+BookHub is an book recommending system built with **Streamlit**.  
 
 It helps readers discover new books using:  
 - **TF-IDF (Term Frequency–Inverse Document Frequency)**  
